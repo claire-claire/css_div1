@@ -1,0 +1,270 @@
+<style>
+@font-face{
+  font-family: 'trana';
+  src :local('trana'),
+       url('trana.eot'),
+       url('trana.woff') format('woff'),
+       url('trana.ttf') format('truetype');
+  }
+.w-font{
+  font-family:'trana', sans-serif;
+  }
+  p{
+  font-size:30px;
+  }
+  
+
+</style>
+<p> Using Default Fonts</P>
+<P class ="w-font">Using Trana Fonts</p>
+
+
+3번째
+<style>
+  h1{font-size :3em;}
+  p{font-size:1em;}
+
+</style>
+<h1> 3em의 크기를 가진 제목</h1>
+<p> 1em의 크기를 가진 단락</p>
+
+4번째
+<!DOCTYPE html>
+
+
+<style>
+  .accent{font-variant :small-caps;
+          font-weight:bold;
+          }
+  
+
+</style>
+<h1> 세계 3대 미항</h1>
+<p><span class="accent">시드니(Sydney)</span>, 호주</p>
+<p><span class="accent">리우데자네이루(Rio de Janeiro)</span>,브라질</p>
+<p><span class="accent">나폴리(Naples)</span>,이탈리아 </p>
+
+5번째
+<style>
+  p{font-style:italic;}
+  p.txt{font-style:normal;}
+  
+</style>
+
+
+<h1> 세계 3대 미항</h1>
+<p>시드니(Sydney),호주</p>
+<p>리우데자네이루(Rio de Janeiro),브라질</p>
+<p class="txt">나폴리(Naples),이탈리아 </p>
+
+6번째
+<!DOCTYPE html>
+
+
+<style>
+ h1{color:rgb(0,200,0);}
+ h2{color:blue;}
+ .accent{color:#ff0000;}
+</style>
+
+<h1>세계 10대 푸드</h1>
+<img src="images/garlic.jpg">
+<h2>마늘(Garlic)</h2><p>일해백리는..</p>
+<p>마늘 특유의 아린맛은 <span class="accent">알리신</span>이라는 성분 때문에......</p>
+
+7번째
+<!DOCTYPE html>
+
+
+<style>
+p{line-height:e1.8;}
+a{text-decoration:none;}
+.edited{text-decoration:line-through;}
+</style>
+
+<p>다양한 기기로 인터넷에 접속할 수 있는 요즘, <br>알리신
+<span class="edited">HTML4</span>HTML5을 공부해야 할 때입니다.</p>
+<P><a href="https://html.spec.whatwg.org/"target="_blank"><b>HTML5표준규약 살펴보기
+</b></a></p>
+
+8번째
+<!DOCTYPE html>
+
+
+<style>
+.trans1{text-transform:uppercase;}
+.trans2{text-transform:capitalize;}
+</style>
+
+<ul>
+   <li class="trans1">html</li>
+   <li class="trans1">css</li>
+   <li class="trans2">javascript</li>
+</ul>
+
+9번째
+<!DOCTYPE html>
+
+<style>
+.shadow3{
+  color:#000;
+  text-shadow: 0 0 4pxx #ccc, 0 -5px 4px #ff3, 2px -10px 6px #fd3, -2px -15px 11px #f80, 2px -19px 18px #f20;
+  
+</style>
+
+<h1 class="shadow3">HTML5</h1>
+
+10번째
+<!DOCTYPE html>
+
+<style>
+.letter1{letter-spacing: 0.2em;}
+.letter2{letter-spacing: 0.5em;}
+</style>
+
+<h1>HTML5</h1>
+<h1 class="letter1">HTML5</h1>
+<h1 class="letter2">HTML5</h1>
+
+
+11번째
+<!DOCTYPE html>
+
+<style>
+.align-left{text-align: left;}
+.align-right{text-align: right;}
+.align-center{text-align: center;}
+.align-justify{text-align: justify;}
+</style>
+
+
+<p class="align-left">Integer elements massa at nulla placerat ...</p>
+<p class="align-right">Integer elements massa at nulla placerat ...</p>
+<p class="align-center">Integer elements massa at nulla placerat ...</p>
+<p class="align-justify">Integer elements massa at nulla placerat ...</p>
+
+12번째
+<!DOCTYPE html>
+
+<style>
+.indent1{text-indent: 15px;}
+.indent2{text-indent: 5%;}
+</style>
+
+<p>블루베리는 비타민 A,C,E가 풍부하고......</P>
+<p class="indent1">블루베리는 비타민 A,C,E가 풍부하고......</p>
+<p class="indent2">블루베리는 비타민 A,C,E가 풍부하고......</p>
+
+13번째
+<!DOCTYPE html>
+
+<style>
+.small-line{line-height: 0.7;}
+.big-line{line-height: 2;}
+</style>
+
+<p>블루베리는 비타민 A,C,E가 풍부하고......</P>
+<p class="small-line">블루베리는 비타민 A,C,E가 풍부하고......</p>
+<p class="big-line">블루베리는 비타민 A,C,E가 풍부하고......</p>
+
+14번째
+<!DOCTYPE html>
+
+<style>
+ .content{
+   border:1px solid #ccc;
+   width:300px;
+   white-space:nowrap;
+   overflow:hidden;
+   text-overflow:ellipsis;
+   }
+   
+ .content:hover{
+     overflow:visible;
+     }
+</style>
+     
+<p class="content">This is an ordinary paragraph. Notice that this text is blue. The default text color for a page is defined in the body selector.</p>
+
+15번째
+<!DOCTYPE html>
+
+<style>
+ .sqbullet{list-style-type:square;}
+ .nobullet{list-style-type:none;}
+</style>
+     
+<h1>STARTUP</H1>
+  <!--채운 사각형으로 불릿 바꾸기 -->
+  <ul class="sqbullet">
+      <li> 회사소개</li>
+      <li> 주주</li>
+      
+      ......
+      
+  </ul>
+  
+  
+  <!-- 불릿 없애기 -->
+  <ul class="nobullet">
+      <li> 회사소개</li>
+      <li> 주주</li>
+      
+      ......
+      
+  </ul>
+  
+16번째
+<!DOCTYPE html>
+
+<style>
+ .book1{list-style-type:lower-alpha;}
+ .book2{list-style-type:upper-roman;}
+</style>
+     
+
+  <ol class="book1">
+      <li> 톰 소여의 모험</li>
+      <li> 허클베리 핀</li>
+      
+      ......
+      
+  </ol>
+  
+  
+ 
+  <ol class="book2">
+      <li> 톰 소여의 모험</li>
+      <li> 허클베리 핀</li>
+      
+      ......
+      
+  </ol>
+  
+17번째
+<!DOCTYPE html>
+
+<style>
+ .inside{list-style-position:inside;}
+</style>
+     
+
+  <ol class="book1">
+      <li> 톰 소여의 모험</li>
+      <li> 허클베리 핀</li>
+      
+      ......
+      
+  </ol>
+  
+  
+ 
+  <ol class=inside>
+      <li> 톰 소여의 모험</li>
+      <li> 허클베리 핀</li>
+      
+      ......
+      
+  </ol>
+  
+
