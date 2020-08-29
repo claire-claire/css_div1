@@ -1,0 +1,11 @@
+<style>
+   body {background:#222222;}
+   .text{color:rgb(255,255,255);}
+   .text2{color:rgba(255,255,255,0.8);}
+   .text3{color:rgba(255,255,255,0.2);}
+</style>
+
+
+<h1 class="text1">Heavenly</h1>
+<h1 class="text2">Heavenly</h1>
+<h1 class="text3">Heavenly</h1>
