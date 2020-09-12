@@ -1,0 +1,36 @@
+<html>
+<head>
+<style>
+#bg1 {
+  background-image: url('images/light.png')
+  background-repeat:no-repeat;
+   background-position:5px 7px;
+}
+
+#bg1 {
+  background-image: url('images/light.png')
+  background-repeat:no-repeat;
+   background-position:5px 7px;
+}
+
+
+</style>
+
+<div>
+<button id="bg1">
+    IEDA
+    </button>
+    
+    </div>
+    
+    <div>
+<button id="bg2">
+    IEDA
+    </button>
+    
+    </div>
+
+
+
+</head>
+</html>
