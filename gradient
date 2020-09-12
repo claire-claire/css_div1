@@ -1,0 +1,22 @@
+<style>
+.grad1{
+  background: blue;
+  background: -webkit-radial-gradiation(white, yellow, blue);
+   background: -moz-radial-gradiation(white, yellow, blue);
+   background: -o-radial-gradiation(white, yellow, blue);    
+ background: radial-gradiation(white, yellow, blue);
+}
+
+
+</style>
+
+
+<style>
+.grad2{
+  background:red;
+  background: -webkit-radial-gradiation( circle, white, yellow, blue);
+   background: -moz-radial-gradiation(circle, white, yellow, blue);
+   background: -o-radial-gradiation(circle, white, yellow, blue);    
+ background: radial-gradiation(circle, white, yellow, blue);
+}
+</style>
