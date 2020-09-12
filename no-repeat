@@ -1,0 +1,9 @@
+<style>
+.bg1 {
+  background: url('images/bg3.jpg.jpg') no-repeat left top;
+   background-size:auto;
+}
+
+
+</style>
+<div class="bg1">......mm</div>
