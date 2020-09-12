@@ -1,0 +1,29 @@
+<html>
+<head>
+<style>
+.grad {
+  background: #06f;
+   background-image: -webkit-linear-gradient(top,#06f,white 30%, #06f);
+   background-image: -moz-linear-gradient(botttom,#06f,white 30%, #06f);
+   background-image: -o-linear-gradient(top,#06f,white 30%, #06f);
+   background-image: linear-gradient(top,#06f,white 30%, #06f); 
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+</style>
+</head>
+<body>
+
+
+<p>This is sky.</p>
+
+</body>
+</html>
