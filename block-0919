@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+n#block img {
+ display: block;
+ 
+ margin:30px;
+
+}
+
+
+</style>
+
+<div id="inline">
+<img src="images/pic1.jpg">
+<img src="images/pic2.jpg">
+<img src="images/pic31.jpg">
+
+
+
+</div>
+<div id="block">
+<img src="images/pic1.jpg">
+<img src="images/pic1.jpg">
+<img src="images/pic1.jpg">
+</div>
+<body>
+
+<h1>사진배치</h1>
+<p>block-border</p>
+
+</head>
+</html>
