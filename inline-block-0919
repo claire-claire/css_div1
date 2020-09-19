@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+ width: 100px;
+ height:100px;
+ margin:30px;
+ display:inline-block;
+}
+
+
+</style>
+
+
+<div style="background:green"></div>
+<div style="background:orange"></div>
+<div style="background:blue"></div>
+
+</head>
+<body>
+
+<h1>색깔나열</h1>
+<p>inline-block</p>
+
+</body>
+</html>
