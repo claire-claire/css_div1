@@ -1,0 +1,31 @@
+
+<head>
+<style>
+nav ul li{
+  display: inline;
+}
+
+
+
+</style>
+
+<nav>
+<ul>
+<li><a href="#">애완견종류</a></li> 
+<li><a href="#">애완견adopt/a></li> 
+<li><a href="#">Take care</a></li> 
+<li><a href="#">with live</a></li> 
+
+
+
+</ul>
+</nav>
+
+<h1>가로배치.줄 나열</h1>
+<p>inline-border</p>
+
+</head>
+</html>
+
+
+
