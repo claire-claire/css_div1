@@ -1,0 +1,47 @@
+<style>
+.box1 {
+  float:left;
+  width: 100px;
+  background:#ffd800;
+  height:150px;
+  margin-right:10px;
+  padding:20px;
+  border:2px solid red;
+}
+
+.box2 {
+  float:left;
+  position:relative;
+  left:-50px;
+  top:30px;
+  width: 300px;
+  background:#0094ff;
+  height:150px;
+  float:left;
+  padding:30px;
+  border:2px solid red;
+}
+
+.box3{
+ background:#00ff21;
+ padding:20px;
+ float:right;
+ border:1px solid black
+}
+
+.box4{
+   background:#ffffff;
+   padding:20px;
+   float:right;
+   border:1px solid black;
+   clear:both;
+   }
+
+</style>
+
+<div class="box1"> box1</div>
+<div class="box2"> box2</div>
+
+
+<div class="box3"> box3</div>
+<div class="box4"> box4</div>
